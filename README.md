@@ -1,4 +1,4 @@
-# PunyCode
+# PunyCode Python Implementation
 
 A pure Python implementation of the Punycode algorithm (RFC 3492) for encoding and decoding Unicode domain names.
 
@@ -16,7 +16,6 @@ PunyCode is a specialized encoding syntax used to convert Unicode strings into t
 - 🐍 Pure Python implementation with no external dependencies
 - 🌐 Support for both basic ASCII and non-ASCII Unicode characters
 - 📚 Comprehensive documentation and examples
-- ✅ Easy-to-use interface
 
 ## Installation
 
@@ -38,8 +37,6 @@ python punycode.py
 ```
 
 Follow the interactive prompts to encode or decode strings.
-
-### As a Python Module
 
 ```python
 from punycode import punycode_encode, punycode_decode
@@ -83,20 +80,6 @@ The implementation uses several parameters as defined in RFC 3492:
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## Testing
-
-To run tests (when implemented):
-
-```bash
-python -m unittest tests/test_punycode.py
-```
 
 ## License
 
